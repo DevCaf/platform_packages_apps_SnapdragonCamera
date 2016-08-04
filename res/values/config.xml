@@ -57,4 +57,10 @@
     <!-- ISO values use numbers.
          Example: 50 instead of ISO50 -->
     <bool name="iso_values_use_numbers">false</bool>
+
+    <!-- A list of scenemodes where Longshot should be enabled.
+         An empty list will use the default restrictions. If defined, longshot
+         will be enabled ONLY for these scenemodes and disabled for others. -->
+    <string-array name="longshot_scenemodes"></string-array>
+
 </resources>
